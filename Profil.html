@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        /* Styles for the profile card */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        .profile-header {
+            background-image: url('Rectangle 60.png'); /* Replace with your image URL */
+            background-size: 100% auto;
+            background-position: center;
+            height: 150px;
+            position: relative;
+        }
+        .edit-profile {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #333;
+            text-decoration: none;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            position: absolute;
+            left: 50%;
+            top: 100px;
+            transform: translateX(-50%);
+            background-image: url('Ellipse 26.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+        }
+        .profile-name {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+        .card-info {
+            margin-top: 25px;
+        }
+        /* Style for the card info */
+        .card-info .col-sm-4 p,
+        .card-info .col-sm-3 p {
+            margin: 5px 0;
+            font-size: 20px;
+            color: #810000; /* Merubah warna teks menjadi merah */
+        }
+        .card-info .col-sm-3 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Bagian profile header dan image -->
+            <div class="col-lg">
+                <div class="profile-header">
+                    <a href="#" class="edit-profile">Edit Profil</a>
+                </div>
+                <div class="profile-image"></div>
+                <div class="profile-name">Lulu Karina</div>
+            </div>
+        </div>
+        <!-- Baris baru untuk card informasi profil -->
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <p class="mb-0" style="color: #810000; font-weight: bold;">Username</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="text-muted mb-0">Johnatan Smith</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p class="mb-0" style="color: #810000; font-weight: bold;">Email</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="text-muted mb-0">Johnatan Smith</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p class="mb-0" style="color: #810000; font-weight: bold;">NIK</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="text-muted mb-0">Johnatan Smith</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p class="mb-0" style="color: #810000; font-weight: bold;">No. Telepon</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="text-muted mb-0">Johnatan Smith</p>
+                            </div>
+                        </div>
+                        <!-- Tambahkan informasi lainnya di sini -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
